@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-I -lpthread.
+CFLAGS=-I -lpthread -Wall -Wshadow
 DEPS = 
 
 %.o: %.c $(DEPS)

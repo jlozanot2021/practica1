@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-I.
+CFLAGS=-I -Wall -Wshadow
 DEPS = 
 
 %.o: %.c $(DEPS)
